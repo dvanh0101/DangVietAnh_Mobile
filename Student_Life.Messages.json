@@ -1,0 +1,187 @@
+[{
+  "_id": {
+    "$oid": "67483015270a21f94e7eda73"
+  },
+  "Messages_id": "Messages01",
+  "participants": [
+    {
+      "Sender_id": "Users01"
+    },
+    {
+      "Receiver_id": "Users02"
+    }
+  ],
+  "messages": [
+    {
+      "text": "Xin chào, tôi muốn hỏi về căn hộ bạn đăng.",
+      "sender": "Users01",
+      "status": {
+        "viewed": false,
+        "got": true
+      },
+      "timestamp": {
+        "$date": "2024-11-27T08:30:00.000Z"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-11-27T08:30:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-27T08:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67483015270a21f94e7eda74"
+  },
+  "Messages_id": "Messages02",
+  "participants": [
+    {
+      "Sender_id": "Users03"
+    },
+    {
+      "Receiver_id": "Users04"
+    }
+  ],
+  "messages": [
+    {
+      "text": "Chào bạn, căn hộ này còn trống không?",
+      "sender": "Users03",
+      "status": {
+        "viewed": true,
+        "got": true
+      },
+      "timestamp": {
+        "$date": "2024-11-27T09:00:00.000Z"
+      }
+    },
+    {
+      "text": "Còn nhé, bạn muốn đến xem lúc nào?",
+      "sender": "Users04",
+      "status": {
+        "viewed": true,
+        "got": true
+      },
+      "timestamp": {
+        "$date": "2024-11-27T09:05:00.000Z"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-11-27T09:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-27T09:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67483015270a21f94e7eda75"
+  },
+  "Messages_id": "Messages03",
+  "participants": [
+    {
+      "Sender_id": "Users03"
+    },
+    {
+      "Receiver_id": "Users02"
+    }
+  ],
+  "messages": [
+    {
+      "text": "Bạn có thể cung cấp thêm thông tin về giá thuê không?",
+      "sender": "Users03",
+      "status": {
+        "viewed": false,
+        "got": true
+      },
+      "timestamp": {
+        "$date": "2024-11-27T10:00:00.000Z"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-11-27T10:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-27T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67483015270a21f94e7eda76"
+  },
+  "Messages_id": "Messages04",
+  "participants": [
+    {
+      "Sender_id": "Users05"
+    },
+    {
+      "Receiver_id": "Users02"
+    }
+  ],
+  "messages": [
+    {
+      "text": "Căn hộ của bạn có chỗ để xe không?",
+      "sender": "Users05",
+      "status": {
+        "viewed": true,
+        "got": true
+      },
+      "timestamp": {
+        "$date": "2024-11-27T11:00:00.000Z"
+      }
+    },
+    {
+      "text": "Có nhé, bạn có thể đến xem trực tiếp.",
+      "sender": "Users02",
+      "status": {
+        "viewed": true,
+        "got": true
+      },
+      "timestamp": {
+        "$date": "2024-11-27T11:10:00.000Z"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-11-27T11:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-27T11:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67483015270a21f94e7eda77"
+  },
+  "Messages_id": "Messages05",
+  "participants": [
+    {
+      "Sender_id": "Users01"
+    },
+    {
+      "Receiver_id": "Users04"
+    }
+  ],
+  "messages": [
+    {
+      "text": "Tôi sẽ đến xem phòng. Cảm ơn bạn nhé!",
+      "sender": "Users01",
+      "status": {
+        "viewed": false,
+        "got": true
+      },
+      "timestamp": {
+        "$date": "2024-11-27T12:00:00.000Z"
+      }
+    }
+  ],
+  "created_at": {
+    "$date": "2024-11-27T12:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-27T12:00:00.000Z"
+  }
+}]

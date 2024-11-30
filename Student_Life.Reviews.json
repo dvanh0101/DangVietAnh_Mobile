@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "67473b64a97dc247a59d1139"
+  },
+  "Review_id": "Review01",
+  "Users_id": "Users01",
+  "Motel_id": "Motel01",
+  "rating": 5,
+  "content": "Phòng sạch sẽ, chủ nhà thân thiện.",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473b64a97dc247a59d113a"
+  },
+  "Review_id": "Review02",
+  "Users_id": "Users02",
+  "Motel_id": "Motel02",
+  "rating": 4,
+  "content": "Khu vực an ninh, gần trung tâm nhưng hơi ồn.",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473b64a97dc247a59d113b"
+  },
+  "Review_id": "Review03",
+  "Users_id": "Users03",
+  "Motel_id": "Motel03",
+  "rating": 3,
+  "content": "Phòng hơi nhỏ, không phù hợp cho gia đình.",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473b64a97dc247a59d113c"
+  },
+  "Review_id": "Review04",
+  "Users_id": "Users04",
+  "Motel_id": "Motel04",
+  "rating": 5,
+  "content": "Tiện ích đầy đủ, có chỗ để xe thoải mái.",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473b64a97dc247a59d113d"
+  },
+  "Review_id": "Review05",
+  "Users_id": "Users05",
+  "Motel_id": "Motel05",
+  "rating": 2,
+  "content": "Phòng không cách âm, rất ồn vào ban đêm.",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+}]

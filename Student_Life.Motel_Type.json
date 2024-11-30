@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "67473a3ca97dc247a59d112a"
+  },
+  "Motel_Type_id": "Motel_Type01",
+  "name": "Phòng trọ",
+  "description": "Phòng trọ nhỏ phù hợp với sinh viên và người lao động.",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473a3ca97dc247a59d112b"
+  },
+  "Motel_Type_id": "Motel_Type02",
+  "name": "Nhà nguyên căn",
+  "description": "Nhà riêng, không gian rộng rãi, phù hợp với gia đình.",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473a3ca97dc247a59d112c"
+  },
+  "Motel_Type_id": "Motel_Type03",
+  "name": "Chung cư",
+  "description": "Căn hộ chung cư hiện đại, tiện ích đầy đủ.",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473a3ca97dc247a59d112d"
+  },
+  "Motel_Type_id": "Motel_Type04",
+  "name": "Căn hộ dịch vụ",
+  "description": "Căn hộ được trang bị đầy đủ tiện nghi và dịch vụ.",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473a3ca97dc247a59d112e"
+  },
+  "Motel_Type_id": "Motel_Type05",
+  "name": "Ký túc xá",
+  "description": "Không gian sống chung với giá cả hợp lý dành cho sinh viên.",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+}]

@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "67447fe6f2b62d417c32469b"
+  },
+  "Comment_Post_id": "Comment_Post01",
+  "Posts_id": "Posts01",
+  "Users_id": "Users01",
+  "Parent_comment_ID": null,
+  "Content": "Phòng trọ này có gần trường đại học không?",
+  "Attachments": [],
+  "Likes": 2,
+  "Replies_count": 1,
+  "Create_at": {
+    "$date": "2024-11-25T20:00:00.000Z"
+  },
+  "Update_at": {
+    "$date": "2024-11-25T20:00:00.000Z"
+  },
+  "Is_active": true
+},
+{
+  "_id": {
+    "$oid": "67447fe6f2b62d417c32469c"
+  },
+  "Comment_Post_id": "Comment_Post02",
+  "Posts_id": "Posts02",
+  "Users_id": "Users02",
+  "Parent_comment_ID": null,
+  "Content": "Tủ lạnh còn bảo hành không?",
+  "Attachments": [],
+  "Likes": 3,
+  "Replies_count": 2,
+  "Create_at": {
+    "$date": "2024-11-25T21:00:00.000Z"
+  },
+  "Update_at": {
+    "$date": "2024-11-25T21:00:00.000Z"
+  },
+  "Is_active": true
+},
+{
+  "_id": {
+    "$oid": "67447fe6f2b62d417c32469d"
+  },
+  "Comment_Post_id": "Comment_Post03",
+  "Posts_id": "Posts03",
+  "Users_id": "Users03",
+  "Parent_comment_ID": null,
+  "Content": "Bạn muốn hỏi về đồ nội thất gì",
+  "Attachments": [],
+  "Likes": 4,
+  "Replies_count": 0,
+  "Create_at": {
+    "$date": "2024-11-25T22:00:00.000Z"
+  },
+  "Update_at": {
+    "$date": "2024-11-25T22:00:00.000Z"
+  },
+  "Is_active": true
+},
+{
+  "_id": {
+    "$oid": "67447fe6f2b62d417c32469e"
+  },
+  "Comment_Post_id": "Comment_Post04",
+  "Posts_id": "Posts05",
+  "Users_id": "Users02",
+  "Parent_comment_ID": null,
+  "Content": "Bạn thử tìm quanh khu vực quận 5 nhé.",
+  "Attachments": [],
+  "Likes": 5,
+  "Replies_count": 0,
+  "Create_at": {
+    "$date": "2024-11-25T23:00:00.000Z"
+  },
+  "Update_at": {
+    "$date": "2024-11-25T23:00:00.000Z"
+  },
+  "Is_active": true
+},
+{
+  "_id": {
+    "$oid": "67447fe6f2b62d417c32469f"
+  },
+  "Comment_Post_id": "Comment_Post05",
+  "Posts_id": "Posts05",
+  "Users_id": "Users04",
+  "Parent_comment_ID": "Comment_Post04",
+  "Content": "Cảm ơn bạn! Mình sẽ tìm hiểu thêm.",
+  "Attachments": [],
+  "Likes": 1,
+  "Replies_count": 0,
+  "Create_at": {
+    "$date": "2024-11-25T23:30:00.000Z"
+  },
+  "Update_at": {
+    "$date": "2024-11-25T23:30:00.000Z"
+  },
+  "Is_active": true
+}]

@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "674826f3b5813def125beb6c"
+  },
+  "Activity_Logs_id": "Activity_Logs01",
+  "Users_id": "Users01",
+  "action": "like_post",
+  "details": "User liked post with ID: 12345",
+  "created_at": {
+    "$date": "2024-11-26T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674826f3b5813def125beb6d"
+  },
+  "Activity_Logs_id": "Activity_Logs02",
+  "Users_id": "Users02",
+  "action": "comment_post",
+  "details": "User commented on post with ID: 12345. Comment: 'Great post!'",
+  "created_at": {
+    "$date": "2024-11-26T08:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674826f3b5813def125beb6e"
+  },
+  "Activity_Logs_id": "Activity_Logs03",
+  "Users_id": "Users03",
+  "action": "share_post",
+  "details": "User shared post with ID: 12345",
+  "created_at": {
+    "$date": "2024-11-26T08:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674826f3b5813def125beb6f"
+  },
+  "Activity_Logs_id": "Activity_Logs04",
+  "Users_id": "Users03",
+  "action": "create_post",
+  "details": "User created a new post with title: 'Looking for a roommate!'",
+  "created_at": {
+    "$date": "2024-11-26T08:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674826f3b5813def125beb70"
+  },
+  "Activity_Logs_id": "Activity_Logs05",
+  "Users_id": "Users05",
+  "action": "create_poll",
+  "details": "User created a poll: 'Do you prefer a 1-bedroom or 2-bedroom apartment?'",
+  "created_at": {
+    "$date": "2024-11-26T08:20:00.000Z"
+  }
+}]

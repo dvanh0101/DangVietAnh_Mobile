@@ -1,0 +1,131 @@
+db.getCollection("UserProfiles");
+
+db.UserProfiles.insertMany([
+  {
+    User_Profiles_id: 'User_Profiles01',
+    "User_id": ObjectId("6482fc23b19e150bde123456"),
+    "Profile_type": "Poster",
+    "Profile_details": {
+      "Bio": "This is a bio of a poster user.",
+      "Rating": 4.5,
+      "Reviews": [
+        {
+          "Yourself_id": ObjectId("6482fc23b19e150bde654321"),
+          "Comment": "Great user to work with!",
+          "Rating": NumberInt(5),
+          "Created_at": ISODate("2024-11-01T00:00:00.000+0000")
+        },
+        {
+          "Yourself_id": ObjectId("6482fc23b19e150bde987654"),
+          "Comment": "Very reliable and professional.",
+          "Rating": NumberInt(4),
+          "Created_at": ISODate("2024-11-10T00:00:00.000+0000")
+        }
+      ]
+    },
+    "Created_at": ISODate("2024-11-26T15:28:44.837+0000"),
+    "Updated_at": ISODate("2024-11-26T15:28:44.837+0000")
+  },
+  {
+    User_Profiles_id: 'User_Profiles02',
+    "User_id": ObjectId("6482fc23b19e150bde654321"),
+    "Profile_type": "Poster",
+    "Profile_details": {
+      "Bio": "This is a bio of another poster user.",
+      "Rating": 4.0,
+      "Reviews": [
+        {
+          "Yourself_id": ObjectId("6482fc23b19e150bde987654"),
+          "Comment": "A pleasure to work with.",
+          "Rating": NumberInt(4),
+          "Created_at": ISODate("2024-11-05T00:00:00.000+0000")
+        },
+        {
+          "Yourself_id": ObjectId("6482fc23b19e150bde123456"),
+          "Comment": "Good communication but could improve delivery time.",
+          "Rating": NumberInt(3),
+          "Created_at": ISODate("2024-11-12T00:00:00.000+0000")
+        }
+      ]
+    },
+    "Created_at": ISODate("2024-11-26T15:30:00.000+0000"),
+    "Updated_at": ISODate("2024-11-26T15:30:00.000+0000")
+  },
+  {
+    User_Profiles_id: 'User_Profiles03',
+    "User_id": ObjectId("6482fc23b19e150bde987654"),
+    "Profile_type": "Poster",
+    "Profile_details": {
+      "Bio": "This is a bio of another user.",
+      "Rating": 4.8,
+      "Reviews": [
+        {
+          "Yourself_id": ObjectId("6482fc23b19e150bde123456"),
+          "Comment": "Excellent work and punctual.",
+          "Rating": NumberInt(5),
+          "Created_at": ISODate("2024-11-15T00:00:00.000+0000")
+        },
+        {
+          "Yourself_id": ObjectId("6482fc23b19e150bde654321"),
+          "Comment": "Very skilled, would recommend.",
+          "Rating": NumberInt(4),
+          "Created_at": ISODate("2024-11-20T00:00:00.000+0000")
+        }
+      ]
+    },
+    "Created_at": ISODate("2024-11-26T15:32:00.000+0000"),
+    "Updated_at": ISODate("2024-11-26T15:32:00.000+0000")
+  },
+  {
+    User_Profiles_id: 'User_Profiles04',
+    "User_id": ObjectId("6482fc23b19e150bde987654"),
+    "Profile_type": "Poster",
+    "Profile_details": {
+      "Bio": "This is a bio of another user.",
+      "Rating": 4.8,
+      "Reviews": [
+        {
+          "Yourself_id": ObjectId("6482fc23b19e150bde123456"),
+          "Comment": "Excellent work and punctual.",
+          "Rating": NumberInt(5),
+          "Created_at": ISODate("2024-11-15T00:00:00.000+0000")
+        },
+        {
+          "Yourself_id": ObjectId("6482fc23b19e150bde654321"),
+          "Comment": "Very skilled, would recommend.",
+          "Rating": NumberInt(4),
+          "Created_at": ISODate("2024-11-20T00:00:00.000+0000")
+        }
+      ]
+    },
+    "Created_at": ISODate("2024-11-26T15:32:00.000+0000"),
+    "Updated_at": ISODate("2024-11-26T15:32:00.000+0000")
+  },
+  {
+    User_Profiles_id: 'User_Profiles05',
+    "User_id": ObjectId("6482fc23b19e150bde987654"),
+    "Profile_type": "Poster",
+    "Profile_details": {
+      "Bio": "This is a bio of another user.",
+      "Rating": 4.8,
+      "Reviews": [
+        {
+          "Yourself_id": ObjectId("6482fc23b19e150bde123456"),
+          "Comment": "Excellent work and punctual.",
+          "Rating": NumberInt(5),
+          "Created_at": ISODate("2024-11-15T00:00:00.000+0000")
+        },
+        {
+          "Yourself_id": ObjectId("6482fc23b19e150bde654321"),
+          "Comment": "Very skilled, would recommend.",
+          "Rating": NumberInt(4),
+          "Created_at": ISODate("2024-11-20T00:00:00.000+0000")
+        }
+      ]
+    },
+    "Created_at": ISODate("2024-11-26T15:32:00.000+0000"),
+    "Updated_at": ISODate("2024-11-26T15:32:00.000+0000")
+  }
+]);
+
+db.UserProfiles.find().pretty();

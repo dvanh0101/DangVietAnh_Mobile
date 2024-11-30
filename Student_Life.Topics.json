@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "67447b83f2b62d417c32468d"
+  },
+  "Topics_id": "Topics01",
+  "TopicName": "Phòng trọ",
+  "Description": "Cho thuê phòng trọ",
+  "CreateBy": "Admin01",
+  "CreateAt": {
+    "$date": "2024-11-25T10:00:00.000Z"
+  },
+  "UpdateAt": {
+    "$date": "2024-11-25T10:00:00.000Z"
+  },
+  "TopicSlug": "phong-tro"
+},
+{
+  "_id": {
+    "$oid": "67447b83f2b62d417c32468e"
+  },
+  "Topics_id": "Topics02",
+  "TopicName": "Thảo luận",
+  "Description": "Nơi trao đổi và thảo luận",
+  "CreateBy": "Admin01",
+  "CreateAt": {
+    "$date": "2024-11-25T11:00:00.000Z"
+  },
+  "UpdateAt": {
+    "$date": "2024-11-25T11:00:00.000Z"
+  },
+  "TopicSlug": "thao-luan"
+},
+{
+  "_id": {
+    "$oid": "67447b83f2b62d417c32468f"
+  },
+  "Topics_id": "Topics03",
+  "TopicName": "Mua bán đồ cũ",
+  "Description": "Mua bán, trao đổi đồ cũ",
+  "CreateBy": "Admin01",
+  "CreateAt": {
+    "$date": "2024-11-25T12:00:00.000Z"
+  },
+  "UpdateAt": {
+    "$date": "2024-11-25T12:00:00.000Z"
+  },
+  "TopicSlug": "mua-ban-do-cu"
+},
+{
+  "_id": {
+    "$oid": "67447b83f2b62d417c324690"
+  },
+  "Topics_id": "Topics04",
+  "TopicName": "Tìm bạn ở ghép",
+  "Description": "Tìm người chia sẻ phòng trọ",
+  "CreateBy": "Admin01",
+  "CreateAt": {
+    "$date": "2024-11-25T13:00:00.000Z"
+  },
+  "UpdateAt": {
+    "$date": "2024-11-25T13:00:00.000Z"
+  },
+  "TopicSlug": "tim-ban-o-ghep"
+}]

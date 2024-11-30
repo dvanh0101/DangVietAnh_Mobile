@@ -1,0 +1,32 @@
+[
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e8a100" },
+    "Users_id": "Users01",
+    "Posts_id": "Post01",
+    "created_at": { "$date": "2024-11-15T15:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e8a101" },
+    "Users_id": "Users02",
+    "Posts_id": "Post02",
+    "created_at": { "$date": "2024-11-16T16:30:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e8a102" },
+    "Users_id": "Users03",
+    "Posts_id": "Post03",
+    "created_at": { "$date": "2024-11-17T12:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e8a103" },
+    "Users_id": "Users04",
+    "Posts_id": "Post04",
+    "created_at": { "$date": "2024-11-18T11:15:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e8a104" },
+    "Users_id": "Users05",
+    "Posts_id": "Post05",
+    "created_at": { "$date": "2024-11-20T17:45:00.000Z" }
+  }
+]

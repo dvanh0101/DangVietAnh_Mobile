@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "67473b2bc87c00ce94ab0f5a"
+  },
+  "Post_Tags_id": "Post_Tags01",
+  "Posts_id": "Posts01",
+  "Tag_id": "Tag01",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473b2bc87c00ce94ab0f5b"
+  },
+  "Post_Tags_id": "Post_Tags02",
+  "Posts_id": "Posts02",
+  "Tag_id": "Tag02",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473b2bc87c00ce94ab0f5c"
+  },
+  "Post_Tags_id": "Post_Tags03",
+  "Posts_id": "Posts03",
+  "Tag_id": "Tag03",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473b2bc87c00ce94ab0f5d"
+  },
+  "Post_Tags_id": "Post_Tags04",
+  "Posts_id": "Posts04",
+  "Tag_id": "Tag04",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473b2bc87c00ce94ab0f5e"
+  },
+  "Post_Tags_id": "Post_Tags05",
+  "Posts_id": "Posts05",
+  "Tag_id": "Tag05",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+}]

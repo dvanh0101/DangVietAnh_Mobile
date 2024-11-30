@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "67473ad0a97dc247a59d112f"
+  },
+  "Tag_id": "Tag01",
+  "tag_name": "Phòng trọ",
+  "slug": "phong-tro",
+  "description": "Các bài viết liên quan đến phòng trọ",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473ad0a97dc247a59d1130"
+  },
+  "Tag_id": "Tag02",
+  "tag_name": "Đồ cũ",
+  "slug": "do-cu",
+  "description": "Các bài viết liên quan đến đồ cũ",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473ad0a97dc247a59d1131"
+  },
+  "Tag_id": "Tag03",
+  "tag_name": "Chung cư",
+  "slug": "chung-cu",
+  "description": "Các bài viết liên quan đến chung cư",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473ad0a97dc247a59d1132"
+  },
+  "Tag_id": "Tag04",
+  "tag_name": "Nhà nguyên căn",
+  "slug": "nha-nguyen-can",
+  "description": "Các bài viết liên quan đến nhà nguyên căn",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473ad0a97dc247a59d1133"
+  },
+  "Tag_id": "Tag05",
+  "tag_name": "Thiết bị điện tử",
+  "slug": "thiet-bi-dien-tu",
+  "description": "Các bài viết liên quan đến đồ điện tử",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473ad0a97dc247a59d1134"
+  },
+  "Tag_id": "Tag06",
+  "tag_name": "Nội thất",
+  "slug": "noi-that",
+  "description": "Các bài viết liên quan đến nội thất",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473ad0a97dc247a59d1135"
+  },
+  "Tag_id": "Tag07",
+  "tag_name": "Quần áo",
+  "slug": "quan-ao",
+  "description": "Các bài viết liên quan đến quần áo thời trang",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473ad0a97dc247a59d1136"
+  },
+  "Tag_id": "Tag08",
+  "tag_name": "Mua bán",
+  "slug": "mua-ban",
+  "description": "Các bài viết liên quan đến hoạt động mua bán",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473ad0a97dc247a59d1137"
+  },
+  "Tag_id": "Tag09",
+  "tag_name": "Thảo luận",
+  "slug": "thao-luan",
+  "description": "Các bài viết trao đổi và thảo luận",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67473ad0a97dc247a59d1138"
+  },
+  "Tag_id": "Tag10",
+  "tag_name": "Khuyến mãi",
+  "slug": "khuyen-mai",
+  "description": "Các bài viết về khuyến mãi và ưu đãi",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+}]

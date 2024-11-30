@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "67482e39270a21f94e7eda69"
+  },
+  "Booking_id": "Booking01",
+  "Users_id": "Users01",
+  "Landlord_id": "Users02",
+  "Posts_id": "Posts01",
+  "scheduled_date": {
+    "$date": "2024-11-27T08:30:00.000Z"
+  },
+  "status": "appointment",
+  "confirmation_status": "accept to see",
+  "confirmation_user": "have not seen",
+  "notes": "Xem phòng vào buổi sáng lúc 8:30.",
+  "created_at": {
+    "$date": "2024-11-26T10:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67482e39270a21f94e7eda6a"
+  },
+  "Booking_id": "Booking02",
+  "Users_id": "Users03",
+  "Landlord_id": "Users02",
+  "Posts_id": "Posts05",
+  "scheduled_date": {
+    "$date": "2024-11-28T10:00:00.000Z"
+  },
+  "status": "appointment",
+  "confirmation_status": "pending",
+  "confirmation_user": "have not seen",
+  "notes": "Hẹn xem phòng vào buổi sáng lúc 10:00.",
+  "created_at": {
+    "$date": "2024-11-26T11:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67482e39270a21f94e7eda6b"
+  },
+  "Booking_id": "Booking03",
+  "Users_id": "Users03",
+  "Landlord_id": "Users04",
+  "Posts_id": "Posts04",
+  "scheduled_date": {
+    "$date": "2024-11-29T15:00:00.000Z"
+  },
+  "status": "appointment",
+  "confirmation_status": "cancelled",
+  "confirmation_user": "not applicable",
+  "notes": "Người dùng hủy cuộc hẹn xem phòng.",
+  "created_at": {
+    "$date": "2024-11-26T12:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67482e39270a21f94e7eda6c"
+  },
+  "Booking_id": "Booking04",
+  "Users_id": "Users05",
+  "Landlord_id": "Users04",
+  "Posts_id": "Posts04",
+  "scheduled_date": {
+    "$date": "2024-11-30T09:00:00.000Z"
+  },
+  "status": "appointment",
+  "confirmation_status": "accept to see",
+  "confirmation_user": "have seen",
+  "notes": "Xem phòng vào sáng sớm lúc 9:00.",
+  "created_at": {
+    "$date": "2024-11-26T13:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T13:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67482e39270a21f94e7eda6d"
+  },
+  "Booking_id": "Booking05",
+  "Users_id": "Users05",
+  "Landlord_id": "Users02",
+  "Posts_id": "Posts05",
+  "scheduled_date": {
+    "$date": "2024-12-01T14:00:00.000Z"
+  },
+  "status": "appointment",
+  "confirmation_status": "pending",
+  "confirmation_user": "have not seen",
+  "notes": "Dự kiến xem phòng vào đầu giờ chiều.",
+  "created_at": {
+    "$date": "2024-11-26T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T14:00:00.000Z"
+  }
+}]

@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "674831c8270a21f94e7eda78"
+  },
+  "Users_id": "Users05",
+  "Sender_id": "Users03",
+  "type": "share",
+  "message": "Người dùng Z đã chia sẻ bài viết của bạn.",
+  "status": "success",
+  "is_read": false,
+  "created_at": {
+    "$date": "2024-11-26T08:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674831c8270a21f94e7eda79"
+  },
+  "Users_id": "Users02",
+  "Sender_id": "Users01",
+  "type": "like",
+  "message": "Người dùng Y đã thích bài viết của bạn.",
+  "status": "success",
+  "is_read": false,
+  "created_at": {
+    "$date": "2024-11-26T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674831c8270a21f94e7eda7a"
+  },
+  "Users_id": "Users03",
+  "Sender_id": "Users02",
+  "type": "comment",
+  "message": "Người dùng X đã bình luận về bài đăng của bạn: 'Căn hộ này đẹp quá!'",
+  "status": "success",
+  "is_read": false,
+  "created_at": {
+    "$date": "2024-11-26T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674831c8270a21f94e7eda7b"
+  },
+  "Users_id": "Users01",
+  "Sender_id": "Users04",
+  "type": "message",
+  "message": "Người dùng W đã nhắn tin cho bạn: 'Căn hộ còn trống không?'",
+  "status": "success",
+  "is_read": false,
+  "created_at": {
+    "$date": "2024-11-26T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674831c8270a21f94e7eda7c"
+  },
+  "Users_id": "Users04",
+  "Sender_id": "Users02",
+  "type": "new_post",
+  "message": "Có bài đăng mới về căn hộ cho thuê tại khu vực B.",
+  "status": "success",
+  "is_read": false,
+  "created_at": {
+    "$date": "2024-11-26T10:30:00.000Z"
+  }
+}]

@@ -1,0 +1,155 @@
+[{
+  "_id": {
+    "$oid": "674739cca7e5358e5fe759e3"
+  },
+  "Polls_id": "Polls01",
+  "title": "Bạn thích loại phòng nào?",
+  "description": "Khảo sát ý kiến về loại phòng trọ phổ biến.",
+  "options": [
+    "Phòng trọ",
+    "Nhà nguyên căn",
+    "Chung cư"
+  ],
+  "votes": [
+    {
+      "Users_id": "Users01",
+      "option": "Phòng trọ"
+    },
+    {
+      "Users_id": "Users02",
+      "option": "Chung cư"
+    }
+  ],
+  "status": "active",
+  "created_by": "Admin01",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674739cca7e5358e5fe759e4"
+  },
+  "Polls_id": "Polls02",
+  "title": "Mua đồ cũ, bạn quan tâm điều gì nhất?",
+  "description": "Khảo sát về ưu tiên khi mua đồ cũ.",
+  "options": [
+    "Giá cả",
+    "Chất lượng",
+    "Gần địa điểm"
+  ],
+  "votes": [
+    {
+      "Users_id": "Users01",
+      "option": "Giá cả"
+    },
+    {
+      "Users_id": "Users03",
+      "option": "Chất lượng"
+    }
+  ],
+  "status": "closed",
+  "created_by": "Admin02",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674739cca7e5358e5fe759e5"
+  },
+  "Polls_id": "Polls03",
+  "title": "Bạn thích phương thức thanh toán nào?",
+  "description": "Khảo sát về phương thức thanh toán phổ biến.",
+  "options": [
+    "Tiền mặt",
+    "Chuyển khoản",
+    "Ví điện tử"
+  ],
+  "votes": [
+    {
+      "Users_id": "Users02",
+      "option": "Tiền mặt"
+    },
+    {
+      "Users_id": "Users03",
+      "option": "Ví điện tử"
+    }
+  ],
+  "status": "active",
+  "created_by": "Admin03",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674739cca7e5358e5fe759e6"
+  },
+  "Polls_id": "Polls04",
+  "title": "Bạn thường thuê nhà trong khoảng giá nào?",
+  "description": "Khảo sát về mức giá thuê nhà phổ biến.",
+  "options": [
+    "Dưới 3 triệu",
+    "Từ 3 - 5 triệu",
+    "Trên 5 triệu"
+  ],
+  "votes": [
+    {
+      "Users_id": "Users01",
+      "option": "Dưới 3 triệu"
+    },
+    {
+      "Users_id": "Users04",
+      "option": "Từ 3 - 5 triệu"
+    }
+  ],
+  "status": "active",
+  "created_by": "Admin01",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674739cca7e5358e5fe759e7"
+  },
+  "Polls_id": "Polls05",
+  "title": "Loại tiện ích nào quan trọng nhất khi thuê nhà?",
+  "description": "Khảo sát về tiện ích quan trọng nhất khi thuê nhà.",
+  "options": [
+    "Wi-Fi miễn phí",
+    "Điều hòa",
+    "Gần trung tâm"
+  ],
+  "votes": [
+    {
+      "Users_id": "Users02",
+      "option": "Wi-Fi miễn phí"
+    },
+    {
+      "Users_id": "Users03",
+      "option": "Điều hòa"
+    }
+  ],
+  "status": "closed",
+  "created_by": "Admin02",
+  "created_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  }
+}]

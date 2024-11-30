@@ -1,0 +1,114 @@
+[
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a100" },
+    "Vouchers_id":"Vouchers01",
+    "code": "DISCOUNT10",
+    "discount_percentage": 10,
+    "expiry_date": { "$date": "2024-12-31T23:59:59.000Z" },
+    "is_active": true,
+    "created_at": { "$date": "2024-11-01T10:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a101" },
+    "Vouchers_id":"Vouchers02",
+    "code": "NEWUSER20",
+    "discount_percentage": 20,
+    "expiry_date": { "$date": "2025-01-01T23:59:59.000Z" },
+    "is_active": true,
+    "created_at": { "$date": "2024-11-05T14:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a102" },
+    "Vouchers_id":"Vouchers03",
+    "code": "BLACKFRIDAY30",
+    "discount_percentage": 30,
+    "expiry_date": { "$date": "2024-11-30T23:59:59.000Z" },
+    "is_active": true,
+    "created_at": { "$date": "2024-11-10T09:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a103" },
+    "Vouchers_id":"Vouchers04",
+    "code": "SUMMER15",
+    "discount_percentage": 15,
+    "expiry_date": { "$date": "2024-12-15T23:59:59.000Z" },
+    "is_active": true,
+    "created_at": { "$date": "2024-11-12T12:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a104" },
+    "Vouchers_id":"Vouchers04",
+    "code": "VIP40",
+    "discount_percentage": 40,
+    "expiry_date": { "$date": "2024-12-31T23:59:59.000Z" },
+    "is_active": false,
+    "created_at": { "$date": "2024-10-20T17:00:00.000Z" }
+  }
+]
+[
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a100" },
+    "code": "DISCOUNT10",
+    "discount_percentage": 10,
+    "expiry_date": { "$date": "2024-12-31T23:59:59.000Z" },
+    "is_active": true,
+    "created_at": { "$date": "2024-11-01T10:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a101" },
+    "code": "NEWUSER20",
+    "discount_percentage": 20,
+    "expiry_date": { "$date": "2025-01-01T23:59:59.000Z" },
+    "is_active": true,
+    "created_at": { "$date": "2024-11-05T14:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a102" },
+[
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a100" },
+    "Vouchers_id":"Vouchers01",
+    "code": "DISCOUNT10",
+    "discount_percentage": 10,
+    "expiry_date": { "$date": "2024-12-31T23:59:59.000Z" },
+    "is_active": true,
+    "created_at": { "$date": "2024-11-01T10:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a101" },
+    "Vouchers_id":"Vouchers02",
+    "code": "NEWUSER20",
+    "discount_percentage": 20,
+    "expiry_date": { "$date": "2025-01-01T23:59:59.000Z" },
+    "is_active": true,
+    "created_at": { "$date": "2024-11-05T14:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a102" },
+    "Vouchers_id":"Vouchers03",
+    "code": "BLACKFRIDAY30",
+    "discount_percentage": 30,
+    "expiry_date": { "$date": "2024-11-30T23:59:59.000Z" },
+    "is_active": true,
+    "created_at": { "$date": "2024-11-10T09:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a103" },
+    "Vouchers_id":"Vouchers04",
+    "code": "SUMMER15",
+    "discount_percentage": 15,
+    "expiry_date": { "$date": "2024-12-15T23:59:59.000Z" },
+    "is_active": true,
+    "created_at": { "$date": "2024-11-12T12:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e7a104" },
+    "Vouchers_id":"Vouchers05",
+    "code": "VIP40",
+    "discount_percentage": 40,
+    "expiry_date": { "$date": "2024-12-31T23:59:59.000Z" },
+    "is_active": false,
+    "created_at": { "$date": "2024-10-20T17:00:00.000Z" }
+  }
+]
+

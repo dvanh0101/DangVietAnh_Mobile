@@ -1,0 +1,64 @@
+[
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e9c100" },
+    "Users_id": "Users01",
+    "Posts_id": "Posts01",
+    "Complaint_id": "Complaint01",
+    "complaint_type": "misleading",
+    "description": "The post is misleading about the price of the product.",
+    "status": "unprocessed",
+    "created_at": { "$date": "2024-11-25T10:00:00.000Z" },
+    "Admin_id": "Admin01",
+    "updated_at": { "$date": "2024-11-25T12:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e9c101" },
+    "Users_id": "Users02",
+    "Posts_id": "Posts02",
+    "Complaint_id": "Complaint02",
+    "complaint_type": "fraud",
+    "description": "The seller is scamming users with fake products.",
+    "status": "processing",
+    "created_at": { "$date": "2024-11-26T09:30:00.000Z" },
+    "Admin_id": "Admin02",
+    "updated_at": { "$date": "2024-11-26T12:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e9c102" },
+    "Users_id": "Users03",
+    "Posts_id": "Posts03",
+    "Complaint_id": "Complaint03",
+    "complaint_type": "harassment",
+    "description": "Inappropriate comments under the post.",
+    "status": "resolved",
+    "created_at": { "$date": "2024-11-26T08:00:00.000Z" },
+    "updated_at": { "$date": "2024-11-26T10:00:00.000Z" },
+    "Admin_id": "Admin03",
+    "resolution_notes": "Comments removed, user banned.",
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e9c103" },
+    "Users_id": "Users04",
+    "Posts_id": "Posts04",
+    "Complaint_id": "Complaint04",
+    "complaint_type": "misleading",
+    "description": "The content does not match the product description.",
+    "status": "unprocessed",
+    "created_at": { "$date": "2024-11-27T11:00:00.000Z" },
+    "Admin_id": "Admin04",
+    "updated_at": { "$date": "2024-11-27T12:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0e9c104" },
+    "Users_id": "Users05",
+    "Posts_id": "Posts05",
+    "Complaint_id": "Complaint05",
+    "complaint_type": "other",
+    "description": "Other unspecified issue with the post.",
+    "status": "resolved",
+    "created_at": { "$date": "2024-11-27T14:00:00.000Z" },
+    "updated_at": { "$date": "2024-11-27T15:00:00.000Z" },
+    "Admin_id": "Admin05",
+    "resolution_notes": "Issue clarified with the post creator."
+  }
+]

@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "6481f9a1c92b4235d0e5e001"
+  },
+  "Attachments_id":"Attachments01",
+  "FileName": "phong_tro_1.jpg",
+  "FileType": "image/jpeg",
+  "FileSize": 102400,
+  "UploadAt": {
+    "$date": "2024-11-25T15:00:00.000Z"
+  },
+  "Url": "https://example.com/phong_tro_1.jpg"
+},
+{
+  "_id": {
+    "$oid": "6481f9a1c92b4235d0e5e002"
+  },
+  "Attachments_id":"Attachments02",
+  "FileName": "tu_lanh_cu.jpg",
+  "FileType": "image/jpeg",
+  "FileSize": 204800,
+  "UploadAt": {
+    "$date": "2024-11-25T16:00:00.000Z"
+  },
+  "Url": "https://example.com/tu_lanh_cu.jpg"
+},
+{
+  "_id": {
+    "$oid": "6481f9a1c92b4235d0e5e003"
+  },
+  "Attachments_id":"Attachments03",
+  "FileName": "tim_phong_tro.jpg",
+  "FileType": "image/jpeg",
+  "FileSize": 51200,
+  "UploadAt": {
+    "$date": "2024-11-25T19:00:00.000Z"
+  },
+  "Url": "https://example.com/tim_phong_tro.jpg"
+}]

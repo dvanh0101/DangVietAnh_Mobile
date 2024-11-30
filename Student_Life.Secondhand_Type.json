@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "6745a21c1f5e616463feb83c"
+  },
+  "Secondhand_Type_id": "Seconhand_Type01",
+  "Name": "Thiết bị điện tử",
+  "Description": "Thiết bị điện tử đã qua sử dụng như điện thoại, laptop và đồ gia dụng.",
+  "Created_at": {
+    "$date": "2024-11-25T15:00:00.000Z"
+  },
+  "Updated_at": {
+    "$date": "2024-11-25T15:00:00.000Z"
+  },
+  "CreateBy": "Admin01"
+},
+{
+  "_id": {
+    "$oid": "6745a21c1f5e616463feb83d"
+  },
+  "Secondhand_Type_id": "Seconhand_Type02",
+  "Name": "Nội thất",
+  "Description": "Nội thất cũ như ghế sofa, bàn và ghế.",
+  "Created_at": {
+    "$date": "2024-11-25T15:30:00.000Z"
+  },
+  "Updated_at": {
+    "$date": "2024-11-25T15:30:00.000Z"
+  },
+  "CreateBy": "Admin01"
+},
+{
+  "_id": {
+    "$oid": "6745a21c1f5e616463feb83e"
+  },
+  "Secondhand_Type_id": "Seconhand_Type03",
+  "Name": "Quần áo",
+  "Description": "Quần áo và các mặt hàng thời trang đã qua sử dụng.",
+  "Created_at": {
+    "$date": "2024-11-25T16:00:00.000Z"
+  },
+  "Updated_at": {
+    "$date": "2024-11-25T16:00:00.000Z"
+  },
+  "CreateBy": "Admin01"
+},
+{
+  "_id": {
+    "$oid": "6745a21c1f5e616463feb83f"
+  },
+  "Secondhand_Type_id": "Seconhand_Type04",
+  "Name": "Sách",
+  "Description": "Sách, tạp chí và các tài liệu đọc khác đã qua sử dụng.",
+  "Created_at": {
+    "$date": "2024-11-25T16:30:00.000Z"
+  },
+  "Updated_at": {
+    "$date": "2024-11-25T16:30:00.000Z"
+  },
+  "CreateBy": "Admin01"
+},
+{
+  "_id": {
+    "$oid": "6745a21c1f5e616463feb840"
+  },
+  "Secondhand_Type_id": "Seconhand_Type05",
+  "Name": "Xe cộ",
+  "Description": "Xe hơi, xe đạp và các phương tiện khác đã qua sử dụng.",
+  "Created_at": {
+    "$date": "2024-11-25T17:00:00.000Z"
+  },
+  "Updated_at": {
+    "$date": "2024-11-25T17:00:00.000Z"
+  },
+  "CreateBy": "Admin01"
+}]

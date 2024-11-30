@@ -1,0 +1,138 @@
+[{
+  "_id": {
+    "$oid": "67447d89f2b62d417c324691"
+  },
+  "Posts_id": "Posts01",
+  "CreateBy": "Admin01",
+  "Topic": "Topics01",
+  "Tags": ["Tag01","Tag03","Tag04"],
+  "Title": "Cần cho thuê phòng trọ giá rẻ",
+  "Content": "Phòng trọ sạch đẹp, đầy đủ tiện nghi.",
+  "MotelID": "Motels01",
+  "Attachments": ["Attachments01"],
+  "CreateAt": {
+    "$date": "2024-11-25T15:00:00.000Z"
+  },
+  "UpdateAt": {
+    "$date": "2024-11-25T15:00:00.000Z"
+  },
+  "Comments": {
+    "Count": 1,
+    "List": ["Comment_Post01"]
+  },
+  "Likes": 12,
+  "Views": 120,
+  "Shares": 5,
+  "Is_active": true
+},
+{
+  "_id": {
+    "$oid": "67447d89f2b62d417c324692"
+  },
+  "Posts_id": "Posts02",
+  "CreateBy": "Users01",
+  "Topic": "Topics03",
+  "Tags": ["Tag02","Tag05","Tag06","Tag08"],
+  "Title": "Bán tủ lạnh cũ",
+  "Content": "Tủ lạnh cũ còn rất mới, giá cả hợp lý.",
+  "MotelID": null,
+  "Secondhand_Type_id":"Seconhand_Type02",
+  "Attachments": ["Attachments02"],
+  "CreateAt": {
+    "$date": "2024-11-25T16:00:00.000Z"
+  },
+  "UpdateAt": {
+    "$date": "2024-11-25T16:00:00.000Z"
+  },
+  "Comments": {
+    "Count": 1,
+    "List": ["Comment_Post02"]
+  },
+  "Likes": 8,
+  "Views": 60,
+  "Shares": 2,
+  "Is_active": true
+},
+{
+  "_id": {
+    "$oid": "67447d89f2b62d417c324693"
+  },
+  "Posts_id": "Posts03",
+  "CreateBy": "Users02",
+  "Topic": "Topics02",
+  "Tags": ["Tag06","Tag09"],
+  "Title": "Thảo luận về đồ nội thất",
+  "Content": "Mọi người có kinh nghiệm về mua nội thất không?",
+  "MotelID": null,
+  "Attachments": [],
+  "CreateAt": {
+    "$date": "2024-11-25T17:00:00.000Z"
+  },
+  "UpdateAt": {
+    "$date": "2024-11-25T17:00:00.000Z"
+  },
+  "Comments": {
+    "Count": 1,
+    "List": ["Comment_Post03"]
+  },
+  "Likes": 20,
+  "Views": 200,
+  "Shares": 10,
+  "Is_active": true
+},
+{
+  "_id": {
+    "$oid": "67447d89f2b62d417c324694"
+  },
+  "Posts_id": "Posts04",
+  "CreateBy": "Users03",
+  "Topic": "Topics04",
+  "Tags": ["Tag09"],
+  "Title": "Tìm bạn ở ghép tại quận 1",
+  "Content": "Phòng rộng thoáng, cần tìm thêm 1 bạn nữ ở ghép.",
+  "MotelID": {
+    "$oid": "6481f9a1c92b4235d0e4d002"
+  },
+  "Attachments": [],
+  "CreateAt": {
+    "$date": "2024-11-25T18:00:00.000Z"
+  },
+  "UpdateAt": {
+    "$date": "2024-11-25T18:00:00.000Z"
+  },
+  "Comments": {
+    "Count": 0,
+    "List": []
+  },
+  "Likes": 5,
+  "Views": 30,
+  "Shares": 1,
+  "Is_active": true
+},
+{
+  "_id": {
+    "$oid": "67447d89f2b62d417c324695"
+  },
+  "Posts_id": "Posts05",
+  "CreateBy": "Users04",
+  "Topic": "Topics02",
+  "Tags": ["Tag09"],
+  "Title": "Cần tư vấn tìm phòng trọ",
+  "Content": "Mình mới chuyển đến, cần tìm phòng trọ giá rẻ.",
+  "MotelID": null,
+  "Attachments": ["Attachments03"],
+  "CreateAt": {
+    "$date": "2024-11-25T19:00:00.000Z"
+  },
+  "UpdateAt": {
+    "$date": "2024-11-25T19:00:00.000Z"
+  },
+  "Comments": {
+    "Count": 2,
+    "List": ["Comment_Post04"]
+  },
+  "Likes": 15,
+  "Views": 100,
+  "Shares": 3,
+  "Is_active": true
+}]

@@ -1,0 +1,116 @@
+[{
+  "_id": {
+    "$oid": "67483358270a21f94e7eda7d"
+  },
+  "Roles_id": "Roles01",
+  "role_name": "admin",
+  "permissions": [
+    "Quản lý người dùng",
+    "Quản lý roles",
+    "Quản lý topics",
+    "Quản lý post",
+    "Quản lý vouchers",
+    "Quản lý tags",
+    "Quản lý post_tag",
+    "Quản lý review",
+    "Quản lý Comments_post",
+    "Quản lý motel_type",
+    "Quản lý motel",
+    "Quản lý feedback",
+    "Quản lý polls",
+    "Quản lý 2hand_type",
+    "Quản lý Complaint"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67483358270a21f94e7eda7e"
+  },
+  "Roles_id": "Roles02",
+  "role_name": "admin_quanly_bai_viet",
+  "permissions": [
+    "Quản lý bài viết",
+    "Quản lý comments_post",
+    "Quản lý review",
+    "Quản lý post",
+    "Quản lý post_tag",
+    "Quản lý tags"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67483358270a21f94e7eda7f"
+  },
+  "Roles_id": "Roles03",
+  "role_name": "admin_quanly_feedback",
+  "permissions": [
+    "Quản lý feedback",
+    "Quản lý Complaint"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67483358270a21f94e7eda80"
+  },
+  "Roles_id": "Roles04",
+  "role_name": "admin_quanly_nguoi_dung",
+  "permissions": [
+    "Quản lý người dùng",
+    "Quản lý roles",
+    "Quản lý voucher"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67483358270a21f94e7eda81"
+  },
+  "Roles_id": "Roles05",
+  "role_name": "admin_quanly_nguoi_dung",
+  "permissions": [
+    "Quản lý người dùng",
+    "Quản lý roles",
+    "Quản lý voucher"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67483358270a21f94e7eda82"
+  },
+  "Roles_id": "Roles06",
+  "role_name": "user",
+  "permissions": [
+    "Quản lý UserProfiles",
+    "Quản lý Favorites",
+    "Thêm voucher",
+    "Quản lý Messages",
+    "Quản lý Reviews",
+    "Quản lý Notifications",
+    "Quản lý Comments_post",
+    "Quản lý polls",
+    "Quản lý Booking",
+    "Quản lý Complaint",
+    "Quản lý save article"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67483358270a21f94e7eda83"
+  },
+  "Roles_id": "Roles07",
+  "role_name": "landlord",
+  "permissions": [
+    "Quản lý motel_type",
+    "Quản lý UserProfiles",
+    "Quản lý motel",
+    "Quản lý Favorites",
+    "Thêm voucher",
+    "Quản lý Messages",
+    "Quản lý Reviews",
+    "Quản lý Notifications",
+    "Quản lý Comments_post",
+    "Quản lý polls",
+    "Quản lý Booking",
+    "Quản lý Complaint",
+    "Quản lý save article"
+  ]
+}]

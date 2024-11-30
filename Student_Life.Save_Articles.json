@@ -1,0 +1,32 @@
+[
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0ea100" },
+    "Users_id": "Users01",
+    "Articles_id": "Save_Article01",
+    "saved_at": { "$date": "2024-11-23T10:30:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0ea101" },
+    "Users_id": "Users02",
+    "Articles_id": "Save_Article02",
+    "saved_at": { "$date": "2024-11-24T14:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0ea102" },
+    "Users_id": "Users03",
+    "Articles_id": "Save_Article03",
+    "saved_at": { "$date": "2024-11-25T11:30:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0ea103" },
+    "Users_id": "Users04",
+    "Articles_id": "Save_Article04",
+    "saved_at": { "$date": "2024-11-26T16:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6481f9a1c92b4235d0ea104" },
+    "Users_id": "Users05",
+    "Articles_id": "Save_Article05",
+    "saved_at": { "$date": "2024-11-27T13:00:00.000Z" }
+  }
+]

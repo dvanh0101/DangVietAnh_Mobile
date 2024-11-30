@@ -1,0 +1,116 @@
+[{
+  "_id": {
+    "$oid": "67482f4e270a21f94e7eda6e"
+  },
+  "Feedback_id": "Feedback001",
+  "Users_id": "Users01",
+  "Admin_id": null,
+  "Receiver_id": "Admin03",
+  "type": "user_feedback",
+  "content": "Ứng dụng rất tốt, nhưng cần thêm chức năng tìm kiếm chi tiết hơn.",
+  "Posts_id": "Posts01",
+  "email": "user01@example.com",
+  "status": "pending",
+  "created_at": {
+    "$date": "2024-11-27T08:30:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-27T09:00:00.000Z"
+  },
+  "developer_response": null,
+  "response_date": null
+},
+{
+  "_id": {
+    "$oid": "67482f4e270a21f94e7eda6f"
+  },
+  "Feedback_id": "Feedback02",
+  "Users_id": "Admin01",
+  "Admin_id": "Admin01",
+  "Receiver_id": "Users01",
+  "type": "admin_response",
+  "content": "Cảm ơn bạn đã góp ý. Chức năng tìm kiếm chi tiết sẽ được thêm vào bản cập nhật sắp tới.",
+  "Posts_id": "Posts01",
+  "email": "admin01@example.com",
+  "status": "processed",
+  "created_at": {
+    "$date": "2024-11-27T09:30:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-27T10:00:00.000Z"
+  },
+  "developer_response": "Chức năng này đang trong quá trình phát triển.",
+  "response_date": {
+    "$date": "2024-11-27T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67482f4e270a21f94e7eda70"
+  },
+  "Feedback_id": "Feedback03",
+  "Users_id": "Users02",
+  "Admin_id": null,
+  "Receiver_id": "Admin03",
+  "type": "user_feedback",
+  "content": "Tôi không thể đăng bài dù đã thử nhiều lần.",
+  "Posts_id": "Posts02",
+  "email": "user02@example.com",
+  "status": "pending",
+  "created_at": {
+    "$date": "2024-11-27T09:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-27T09:30:00.000Z"
+  },
+  "developer_response": null,
+  "response_date": null
+},
+{
+  "_id": {
+    "$oid": "67482f4e270a21f94e7eda71"
+  },
+  "Feedback_id": "Feedback04",
+  "Users_id": "Admin03",
+  "Admin_id": "Admin03",
+  "Receiver_id": "Users02",
+  "type": "admin_response",
+  "content": "Chúng tôi đã kiểm tra lỗi đăng bài. Hãy thử lại hoặc liên hệ nếu vấn đề tiếp tục.",
+  "Posts_id": "Posts02",
+  "email": "admin02@example.com",
+  "status": "resolved",
+  "created_at": {
+    "$date": "2024-11-27T10:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-27T10:30:00.000Z"
+  },
+  "developer_response": "Đã khắc phục lỗi trên hệ thống.",
+  "response_date": {
+    "$date": "2024-11-27T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67482f4e270a21f94e7eda72"
+  },
+  "Feedback_id": "Feedback05",
+  "Users_id": "Admin03",
+  "Admin_id": "Admin03",
+  "Receiver_id": "Users03",
+  "type": "admin_feedback",
+  "content": "Chúng tôi đang triển khai tính năng kiểm duyệt bài đăng tự động.",
+  "Posts_id": "Posts03",
+  "email": "admin03@example.com",
+  "status": "processed",
+  "created_at": {
+    "$date": "2024-11-27T10:15:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-27T10:45:00.000Z"
+  },
+  "developer_response": "Cập nhật sẽ được phát hành trong tuần tới.",
+  "response_date": {
+    "$date": "2024-11-27T10:45:00.000Z"
+  }
+}]

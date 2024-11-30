@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6744807cf2b62d417c3246a0"
+  },
+  "Utilities_id": "Utilities01",
+  "UtilitiName": "Máy lạnh",
+  "Create_By":"Admin01"
+},
+{
+  "_id": {
+    "$oid": "6744807cf2b62d417c3246a1"
+  },
+  "Utilities_id": "Utilities02",
+  "UtilitiName": "Nước nóng",
+  "Create_By":"Admin01"
+},
+{
+  "_id": {
+    "$oid": "6744807cf2b62d417c3246a2"
+  },
+  "Utilities_id": "Utilities03",
+  "UtilitiName": "Wi-Fi",
+  "Create_By":"Admin01"
+},
+{
+  "_id": {
+    "$oid": "6744807cf2b62d417c3246a3"
+  },
+  "Utilities_id": "Utilities04",
+  "UtilitiName": "Máy giặt",
+  "Create_By":"Admin01"
+},
+{
+  "_id": {
+    "$oid": "6744807cf2b62d417c3246a4"
+  },
+  "Utilities_id": "Utilities05",
+  "UtilitiName": "Nhà vệ sinh riêng",
+  "Create_By":"Admin01"
+}]
