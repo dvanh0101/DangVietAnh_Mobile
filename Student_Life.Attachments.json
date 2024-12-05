@@ -4,12 +4,12 @@
   },
   "Attachments_id":"Attachments01",
   "FileName": "phong_tro_1.jpg",
-  "FileType": "image/jpeg",
+  "FileType": "image/jpg",
   "FileSize": 102400,
   "UploadAt": {
-    "$date": "2024-11-25T15:00:00.000Z"
+    "$date": "2024-11-30T15:00:00.000Z"
   },
-  "Url": "https://example.com/phong_tro_1.jpg"
+  "Url": "https://firebasestorage.googleapis.com/v0/b/ungdungdatthucan.appspot.com/o/phong_tro_1.jpg?alt=media&token=44512b1a-b27f-4344-b838-993e69bf3155"
 },
 {
   "_id": {
@@ -17,12 +17,12 @@
   },
   "Attachments_id":"Attachments02",
   "FileName": "tu_lanh_cu.jpg",
-  "FileType": "image/jpeg",
+  "FileType": "image/jpg",
   "FileSize": 204800,
   "UploadAt": {
-    "$date": "2024-11-25T16:00:00.000Z"
+    "$date": "2024-11-29T16:00:00.000Z"
   },
-  "Url": "https://example.com/tu_lanh_cu.jpg"
+  "Url": "https://firebasestorage.googleapis.com/v0/b/ungdungdatthucan.appspot.com/o/tu_lanh_cu.jpg?alt=media&token=60d82716-6b47-4899-84c5-8a14190f6df2"
 },
 {
   "_id": {
@@ -33,7 +33,34 @@
   "FileType": "image/jpeg",
   "FileSize": 51200,
   "UploadAt": {
-    "$date": "2024-11-25T19:00:00.000Z"
+    "$date": "2024-11-28T19:00:00.000Z"
   },
-  "Url": "https://example.com/tim_phong_tro.jpg"
-}]
+  "Url": "https://firebasestorage.googleapis.com/v0/b/ungdungdatthucan.appspot.com/o/anh_duong_pho.jpg?alt=media&token=9b86b0f3-8993-49fa-af76-57ba6bff5456"
+},
+{
+  "_id": {
+    "$oid": "6481f9a1c92b4235d0e5e004"
+  },
+  "Attachments_id":"Attachments04",
+  "FileName": "phong_tro_2.jpg",
+  "FileType": "image/jpg",
+  "FileSize": 51200,
+  "UploadAt": {
+    "$date": "2024-11-27T19:00:00.000Z"
+  },
+  "Url": "https://firebasestorage.googleapis.com/v0/b/ungdungdatthucan.appspot.com/o/phong_tro_2.jpg?alt=media&token=3dc58a7a-3bb0-416a-89df-341d50a44763"
+},
+{
+  "_id": {
+    "$oid": "6481f9a1c92b4235d0e5e005"
+  },
+  "Attachments_id":"Attachments05",
+  "FileName": "phong_tro_3.jpg",
+  "FileType": "image/jpg",
+  "FileSize": 51200,
+  "UploadAt": {
+    "$date": "2024-11-26T19:00:00.000Z"
+  },
+  "Url": "https://firebasestorage.googleapis.com/v0/b/ungdungdatthucan.appspot.com/o/phong_tro_4.jpg?alt=media&token=7a71ae94-87fb-4f64-9215-5d6097126357"
+}
+]
