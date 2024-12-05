@@ -1,7 +1,60 @@
+[
+  {
+    "_id": {
+      "$oid": "67447f33f2b62d417c324696"
+    },
+    "Motels_id": "Motels01",
+    "Motel_Type_id": "Motel_Type01",
+    "Name": "Phòng trọ Hoàng Gia",
+    "Description": "Phòng sạch sẽ, gần chợ.",
+    "Price": 3000000,
+    "Utilities_id": ["Utilities01", "Utilities02"],
+    "Attachments": ["Attachments01"],
+    "Acreage": 25,
+    "Address": {
+      "Province_City": "TP.HCM",
+      "District": "Quận 1",
+      "Ward": "Phường Bến Nghé",
+      "Street": "Đường Nguyễn Huệ",
+      "House_Number": "15"
+    },
+    "ReviewID": ["Review01"],
+    "CreateAt": {
+      "$date": "2024-11-25T10:00:00.000Z"
+    },
+    "UpdateAt": {
+      "$date": "2024-11-25T10:00:00.000Z"
+    }
 [{
   "_id": {
     "$oid": "67447f33f2b62d417c324696"
-  },
+},
+  {
+    "_id": {
+      "$oid": "67447f33f2b62d417c324697"
+    },
+    "Motels_id": "Motels02",
+    "Motel_Type_id": "Motel_Type01",
+    "Name": "Phòng trọ Minh An",
+    "Description": "Phòng rộng, yên tĩnh.",
+    "Price": 4000000,
+    "Utilities_id": ["Utilities03"],
+    "Attachments": ["Attachments04"],
+    "Acreage": 30,
+    "Address": {
+      "Province_City": "TP.HCM",
+      "District": "Quận 5",
+      "Ward": "Phường 4",
+      "Street": "Đường Trần Hưng Đạo",
+      "House_Number": "45B"
+    },
+    "ReviewID": ["Review02"],
+    "CreateAt": {
+      "$date": "2024-11-25T12:00:00.000Z"
+    },
+    "UpdateAt": {
+      "$date": "2024-11-25T12:00:00.000Z"
+    }
   "Motels_id": "Motels01",
   "Motel_Type_id": "Motel_Type01",
   "Name": "Phòng trọ Hoàng Gia",
@@ -14,7 +67,33 @@
   "ReviewID": ["Review01"],
   "CreateAt": {
     "$date": "2024-11-25T10:00:00.000Z"
-  },
+},
+  {
+    "_id": {
+      "$oid": "67447f33f2b62d417c324698"
+    },
+    "Motels_id": "Motels03",
+    "Motel_Type_id": "Motel_Type01",
+    "Name": "Phòng trọ Đại Dương",
+    "Description": "Gần khu công nghiệp, thuận tiện di chuyển.",
+    "Price": 2500000,
+    "Utilities_id": ["Utilities01", "Utilities02", "Utilities04"],
+    "Attachments": ["Attachments05"],
+    "Acreage": 20,
+    "Address": {
+      "Province_City": "TP.HCM",
+      "District": "Quận 9",
+      "Ward": "Phường Long Bình",
+      "Street": "Đường Nguyễn Văn Tăng",
+      "House_Number": "67"
+    },
+    "ReviewID": [],
+    "CreateAt": {
+      "$date": "2024-11-25T13:00:00.000Z"
+    },
+    "UpdateAt": {
+      "$date": "2024-11-25T13:00:00.000Z"
+    }
   "UpdateAt": {
     "$date": "2024-11-25T10:00:00.000Z"
   }
@@ -85,7 +164,33 @@
 {
   "_id": {
     "$oid": "67447f33f2b62d417c32469a"
-  },
+},
+  {
+    "_id": {
+      "$oid": "67447f33f2b62d417c324699"
+    },
+    "Motels_id": "Motels04",
+    "Motel_Type_id": "Motel_Type01",
+    "Name": "Phòng trọ Bình Minh",
+    "Description": "Gần trường học, an ninh tốt.",
+    "Price": 3500000,
+    "Utilities_id": ["Utilities01", "Utilities04"],
+    "Attachments": [],
+    "Acreage": 22,
+    "Address": {
+      "Province_City": "TP.HCM",
+      "District": "Quận 7",
+      "Ward": "Phường Tân Phong",
+      "Street": "Đường Nguyễn Hữu Thọ",
+      "House_Number": "18A"
+    },
+    "ReviewID": [],
+    "CreateAt": {
+      "$date": "2024-11-25T14:00:00.000Z"
+    },
+    "UpdateAt": {
+      "$date": "2024-11-25T14:00:00.000Z"
+    }
   "Motels_id": "Motels05",
   "Motel_Type_id": "Motel_Type01",
   "Name": "Phòng trọ Ánh Dương",
@@ -98,8 +203,35 @@
   "ReviewID": [],
   "CreateAt": {
     "$date": "2024-11-25T15:00:00.000Z"
-  },
+},
+  {
+    "_id": {
+      "$oid": "67447f33f2b62d417c32469a"
+    },
+    "Motels_id": "Motels05",
+    "Motel_Type_id": "Motel_Type01",
+    "Name": "Phòng trọ Ánh Dương",
+    "Description": "Phòng đẹp, giá hợp lý.",
+    "Price": 2800000,
+    "Utilities_id": ["Utilities05"],
+    "Attachments": [],
+    "Acreage": 18,
+    "Address": {
+      "Province_City": "TP.HCM",
+      "District": "Quận 2",
+      "Ward": "Phường Thảo Điền",
+      "Street": "Đường Quốc Hương",
+      "House_Number": "120"
+    },
+    "ReviewID": [],
+    "CreateAt": {
+      "$date": "2024-11-25T15:00:00.000Z"
+    },
+    "UpdateAt": {
+      "$date": "2024-11-25T15:00:00.000Z"
+    }
   "UpdateAt": {
     "$date": "2024-11-25T15:00:00.000Z"
-  }
+}
+]
 }]
