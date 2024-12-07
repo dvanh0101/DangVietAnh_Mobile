@@ -1,62 +1,206 @@
-db.Users.insertMany([
-  {
-    "_id": ObjectId("6745dfbc80d91d2548072f8a"),
-    "Users_id": "Users01",
-    "Username": "Johndoe",
-    "Password": "hashedpassword123",
-    "Personal_info": {
-      "Full_name": "John Doe",
-      "Phone_number": "0123456789",
-      "Address": "123 Main St, City, Country",
-      "Evocative_name": "John"
-    },
-    "Security_info": {
-      "Email": "johndoe@example.com",
-      "Identity_number": "123456789012",
-      "Favorite_categories": [
-        "Technology",
-        "Travel"
-      ],
-      "Gender": "Male",
-      "Date_of_birth": ISODate("1990-01-01T00:00:00.000Z")
-    },
-    "Social_media": {
-      "Facebook": "https://facebook.com/johndoe",
-      "Google": "https://google.com/johndoe",
-      "Apple_id": "johnappleid"
-    },
-    "Roles_id": { "Roles_id": "Roles06" },
-    "Created_at": ISODate("2024-11-26T14:48:28.892Z"),
-    "Updated_at": ISODate("2024-11-26T14:48:28.892Z")
+      
+db.getCollection("Users");
+
+db.Users.insertMany([{
+  "_id": {
+    "$oid": "6745dfbc80d91d2548072f8a"
   },
-  {
-    "_id": ObjectId("6745dfbc80d91d2548072f8b"),
-    "Users_id": "Users02",
-    "Username": "Janedoe",
-    "Password": "hashedpassword456",
-    "Personal_info": {
-      "Full_name": "Jane Doe",
-      "Phone_number": "0987654321",
-      "Address": "456 Another St, City, Country",
-      "Evocative_name": "Jane"
-    },
-    "Security_info": {
-      "Email": "janedoe@example.com",
-      "Identity_number": "987654321098",
-      "Favorite_categories": [
-        "Health",
-        "Fitness"
-      ],
-      "Gender": "Female",
-      "Date_of_birth": ISODate("1985-06-15T00:00:00.000Z")
-    },
-    "Social_media": {
-      "Facebook": "https://facebook.com/janedoe",
-      "Google": "https://google.com/janedoe",
-      "Apple_id": "janeappleid"
-    },
-    "Roles_id": { "Roles_id": "Roles07" },
-    "Created_at": ISODate("2024-11-26T15:00:00.000Z"),
-    "Updated_at": ISODate("2024-11-26T15:00:00.000Z")
+  "Users_id": "Users01",
+  "Username": "Johndoe",
+  "Password": "hashedpassword123",
+  "Personal_info": {
+    "Full_name": "John Doe",
+    "Phone_number": "0123456789",
+    "Address": "123 Main St, City, Country",
+    "Evocative_name": "John"
+  },
+  "Security_info": {
+    "Email": "johndoe@example.com",
+    "Identity_number": "123456789012",
+    "Favorite_categories": [
+      "Technology",
+      "Travel"
+    ],
+    "Gender": "Male",
+    "Date_of_birth": {
+      "$date": "1990-01-01T00:00:00.000Z"
+    }
+  },
+  "Social_media": {
+    "Facebook": "https://facebook.com/johndoe",
+    "Google": "https://google.com/johndoe",
+    "Apple_id": "johnappleid"
+  },
+  "Roles_id": {
+    
+    "Roles_id": "Roles06",
+  },
+  "Created_at": {
+    "$date": "2024-11-26T14:48:28.892Z"
+  },
+  "Updated_at": {
+    "$date": "2024-11-26T14:48:28.892Z"
   }
-]);
+},
+{
+  "_id": {
+    "$oid": "6745dfbc80d91d2548072f8b"
+  },
+  "Users_id": "Users02",
+  "Username": "Janedoe",
+  "Password": "hashedpassword456",
+  "Personal_info": {
+    "Full_name": "Jane Doe",
+    "Phone_number": "0987654321",
+    "Address": "456 Another St, City, Country",
+    "Evocative_name": "Jane"
+  },
+  "Security_info": {
+    "Email": "janedoe@example.com",
+    "Identity_number": "987654321098",
+    "Favorite_categories": [
+      "Health",
+      "Fitness"
+    ],
+    "Gender": "Female",
+    "Date_of_birth": {
+      "$date": "1985-06-15T00:00:00.000Z"
+    }
+  },
+  "Social_media": {
+    "Facebook": "https://facebook.com/janedoe",
+    "Google": "https://google.com/janedoe",
+    "Apple_id": "janeappleid"
+  },
+  "Roles_id": {
+    "Roles_id": "Roles07",
+  },
+  "Created_at": {
+    "$date": "2024-11-26T15:00:00.000Z"
+  },
+  "Updated_at": {
+    "$date": "2024-11-26T15:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6745dfbc80d91d2548072f8c"
+  },
+  "Users_id": "Users03",
+  "Username": "Charlie123",
+  "Password": "hashedpassword789",
+  "Personal_info": {
+    "Full_name": "Charlie Brown",
+    "Phone_number": "0112233445",
+    "Address": "789 Sample Rd, City, Country",
+    "Evocative_name": "Charlie"
+  },
+  "Security_info": {
+    "Email": "charlie123@example.com",
+    "Identity_number": "112233445566",
+    "Favorite_categories": [
+      "Food",
+      "Travel"
+    ],
+    "Gender": "Male",
+    "Date_of_birth": {
+      "$date": "1995-08-30T00:00:00.000Z"
+    }
+  },
+  "Social_media": {
+    "Facebook": "https://facebook.com/charlie123",
+    "Google": "https://google.com/charlie123",
+    "Apple_id": "charlieappleid"
+  },
+  "Roles_id": {
+    "Roles_id": "Roles06",
+  },
+  "Created_at": {
+    "$date": "2024-11-26T15:15:00.000Z"
+  },
+  "Updated_at": {
+    "$date": "2024-11-26T15:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6745dfbc80d91d2548072f8d"
+  },
+  "Users_id": "Users04",
+  "Username": "David1990",
+  "Password": "hashedpassword101",
+  "Personal_info": {
+    "Full_name": "David Smith",
+    "Phone_number": "0129988776",
+    "Address": "321 Different Ave, City, Country",
+    "Evocative_name": "David"
+  },
+  "Security_info": {
+    "Email": "david1990@example.com",
+    "Identity_number": "556677889900",
+    "Favorite_categories": [
+      "Technology",
+      "Music"
+    ],
+    "Gender": "Male",
+    "Date_of_birth": {
+      "$date": "1990-12-10T00:00:00.000Z"
+    }
+  },
+  "Social_media": {
+    "Facebook": "https://facebook.com/david1990",
+    "Google": "https://google.com/david1990",
+    "Apple_id": "davidappleid"
+  },
+  "Roles_id": {
+    "Roles_id": "Roles07",
+  },
+  "Created_at": {
+    "$date": "2024-11-26T15:30:00.000Z"
+  },
+  "Updated_at": {
+    "$date": "2024-11-26T15:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6745dfbc80d91d2548072f8e"
+  },
+  "Users_id": "Users05",
+  "Username": "Emilyrose",
+  "Password": "hashedpassword102",
+  "Personal_info": {
+    "Full_name": "Emily Rose",
+    "Phone_number": "0102030405",
+    "Address": "654 Fancy St, City, Country",
+    "Evocative_name": "Emily"
+  },
+  "Security_info": {
+    "Email": "emilyrose@example.com",
+    "Identity_number": "223344556677",
+    "Favorite_categories": [
+      "Fashion",
+      "Beauty"
+    ],
+    "Gender": "Female",
+    "Date_of_birth": {
+      "$date": "1993-11-25T00:00:00.000Z"
+    }
+  },
+  "Social_media": {
+    "Facebook": "https://facebook.com/emilyrose",
+    "Google": "https://google.com/emilyrose",
+    "Apple_id": "emilyappleid"
+  },
+  "Roles_id": {
+    "Roles_id": "Roles06",
+  },
+  "Created_at": {
+    "$date": "2024-11-26T15:45:00.000Z"
+  },
+  "Updated_at": {
+    "$date": "2024-11-26T15:45:00.000Z"
+  }
+}]);
+
+    
