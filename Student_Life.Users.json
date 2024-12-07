@@ -32,8 +32,7 @@ db.Users.insertMany([{
     "Apple_id": "johnappleid"
   },
   "Roles_id": {
-    
-    "Roles_id": "Roles06",
+    "Roles_id": "Roles06"
   },
   "Created_at": {
     "$date": "2024-11-26T14:48:28.892Z"
@@ -73,7 +72,7 @@ db.Users.insertMany([{
     "Apple_id": "janeappleid"
   },
   "Roles_id": {
-    "Roles_id": "Roles07",
+    "Roles_id": "Roles07"
   },
   "Created_at": {
     "$date": "2024-11-26T15:00:00.000Z"
@@ -113,7 +112,7 @@ db.Users.insertMany([{
     "Apple_id": "charlieappleid"
   },
   "Roles_id": {
-    "Roles_id": "Roles06",
+    "Roles_id": "Roles06"
   },
   "Created_at": {
     "$date": "2024-11-26T15:15:00.000Z"
@@ -153,7 +152,7 @@ db.Users.insertMany([{
     "Apple_id": "davidappleid"
   },
   "Roles_id": {
-    "Roles_id": "Roles07",
+    "Roles_id": "Roles07"
   },
   "Created_at": {
     "$date": "2024-11-26T15:30:00.000Z"
@@ -193,7 +192,7 @@ db.Users.insertMany([{
     "Apple_id": "emilyappleid"
   },
   "Roles_id": {
-    "Roles_id": "Roles06",
+    "Roles_id": "Roles06"
   },
   "Created_at": {
     "$date": "2024-11-26T15:45:00.000Z"
