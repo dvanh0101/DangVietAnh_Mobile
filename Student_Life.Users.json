@@ -1,5 +1,5 @@
       
-db.getCollection("Users");
+
 
 db.Users.insertMany([{
   "_id": {
