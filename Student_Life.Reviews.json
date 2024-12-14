@@ -77,4 +77,88 @@
   "updated_at": {
     "$date": "2024-11-26T00:00:00.000Z"
   }
-}]
+},
+
+  {
+    "_id": {
+      "$oid": "67473b64a97dc247a59d113f"
+    },
+    "Review_id": "Review06",
+    "Users_id": "Users06",
+    "Motel_id": "Motel01",
+    "rating": 5,
+    "content": "Phòng rất sạch sẽ, nhân viên phục vụ nhiệt tình và thân thiện.",
+    "created_at": {
+      "$date": "2024-12-10T00:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2024-12-10T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67473b64a97dc247a59d1140"
+    },
+    "Review_id": "Review07",
+    "Users_id": "Users07",
+    "Motel_id": "Motel01",
+    "rating": 4,
+    "content": "Vị trí gần trung tâm, thuận tiện di chuyển. Tuy nhiên, phòng hơi nhỏ.",
+    "created_at": {
+      "$date": "2024-12-12T00:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2024-12-12T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67473b64a97dc247a59d1141"
+    },
+    "Review_id": "Review08",
+    "Users_id": "Users08",
+    "Motel_id": "Motel01",
+    "rating": 3,
+    "content": "Phòng sạch nhưng không có nhiều tiện nghi. Cần cải thiện chất lượng giường ngủ.",
+    "created_at": {
+      "$date": "2024-12-13T00:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2024-12-13T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67473b64a97dc247a59d1142"
+    },
+    "Review_id": "Review09",
+    "Users_id": "Users09",
+    "Motel_id": "Motel01",
+    "rating": 5,
+    "content": "Rất ưng ý với dịch vụ, phòng đẹp, sạch sẽ và giá cả hợp lý.",
+    "created_at": {
+      "$date": "2024-12-14T00:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2024-12-14T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67473b64a97dc247a59d1143"
+    },
+    "Review_id": "Review10",
+    "Users_id": "Users10",
+    "Motel_id": "Motel01",
+    "rating": 2,
+    "content": "Không gian khá ồn ào, và phòng không thoải mái cho việc nghỉ ngơi lâu dài.",
+    "created_at": {
+      "$date": "2024-12-14T00:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2024-12-14T00:00:00.000Z"
+    }
+  }
+
+
+]
